@@ -37,6 +37,16 @@ class BlogsController < ApplicationController
     end
   end
 
+  def toggle_status
+    if @blog.draft?
+      @blog.published!
+    elsif @blog.published?
+      @blog.draft!
+    end 
+
+    redirect_to blogs_url, notice: 'Post status has been updated.'
+  end
+
   # PATCH/PUT /blogs/1
   # PATCH/PUT /blogs/1.json
   def update
