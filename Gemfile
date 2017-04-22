@@ -24,6 +24,8 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
+gem 'neilpatel_view_tool', git: 'https://github.com/neilp666/neilpatel_view_tool'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
