@@ -24,6 +24,7 @@ gem 'kaminari', :git => "git://github.com/amatsuda/kaminari.git", :branch => 'ma
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise'
 gem 'petergate', '~> 1.6', '>= 1.6.3'
+gem 'jquery-ui-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
