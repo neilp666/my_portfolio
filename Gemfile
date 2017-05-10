@@ -25,6 +25,9 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise'
 gem 'petergate', '~> 1.6', '>= 1.6.3'
 gem 'jquery-ui-rails'
+gem 'carrierwave', '~> 1.0'
+gem 'carrierwave-aws'
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
