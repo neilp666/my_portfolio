@@ -14,7 +14,13 @@
      <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
-          <div id="background"></div>
+          <%= video_tag('Palm_Trees.mp4', 
+            id: 'background',
+            autoplay: true,
+            loop: true,
+            poster: 'IMG_2290.JPG'
+            )
+            %>
 
         <%= render 'shared/application_nav' %>
 
