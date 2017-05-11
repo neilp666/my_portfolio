@@ -28,6 +28,7 @@ gem 'jquery-ui-rails'
 gem 'carrierwave', '~> 1.0'
 gem 'carrierwave-aws'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
+gem 'cocoon', '~> 1.2', '>= 1.2.9'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
