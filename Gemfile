@@ -17,10 +17,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'kaminari', :git => "git://github.com/amatsuda/kaminari.git", :branch => 'master'
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 3.0'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise'
 gem 'petergate', '~> 1.6', '>= 1.6.3'
@@ -29,9 +26,8 @@ gem 'carrierwave', '~> 1.0'
 gem 'carrierwave-aws'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
+gem "gritter", "1.2.0"
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
