@@ -28,6 +28,7 @@ gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem "gritter", "1.2.0"
 gem 'twitter', '~> 6.1'
+gem 'redis', '~>3.2'
 
 
 group :development, :test do
