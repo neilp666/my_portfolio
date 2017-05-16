@@ -57,7 +57,7 @@ class BlogsController < ApplicationController
       @blog.published!
     elsif @blog.published?
       @blog.draft!
-    end 
+    end
 
     redirect_to blogs_url, notice: 'Post status has been updated.'
   end
@@ -74,15 +74,6 @@ class BlogsController < ApplicationController
     end
   end
 
-  def toggle_status #custom method
-    if @blog.draft?
-      @blog.published!
-    elsif @blog.published?
-      @blog.draft!
-    end
-
-    redirect_to blogs_url, notice: 'Post status has been updated.'
-  end
 
   # DELETE /blogs/1
   # DELETE /blogs/1.json
@@ -102,6 +93,6 @@ class BlogsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def blog_params
-      params.require(:blog).permit(:title, :body)
+      params.require(:blog).permit(:title, :body, :topic_id)
     end
 end
