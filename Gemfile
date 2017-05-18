@@ -29,6 +29,8 @@ gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem "gritter", "1.2.0"
 gem 'twitter', '~> 6.1'
 gem 'redis', '~>3.2'
+gem 'redcarpet', '~> 3.4'
+gem 'coderay'
 
 
 group :development, :test do
